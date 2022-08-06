@@ -575,6 +575,10 @@ video {
   grid-column-start: 5;
 }
 
+.col-start-4 {
+  grid-column-start: 4;
+}
+
 .col-end-2 {
   grid-column-end: 2;
 }
@@ -631,6 +635,10 @@ video {
   grid-row-end: 4;
 }
 
+.row-end-3 {
+  grid-row-end: 3;
+}
+
 .mt-3 {
   margin-top: 0.75rem;
 }
@@ -657,6 +665,14 @@ video {
 
 .mr-8 {
   margin-right: 2rem;
+}
+
+.mr-6 {
+  margin-right: 1.5rem;
+}
+
+.mr-10 {
+  margin-right: 2.5rem;
 }
 
 .inline {
@@ -759,6 +775,10 @@ video {
   width: 91.666667%;
 }
 
+.w-32 {
+  width: 8rem;
+}
+
 .grid-flow-col {
   grid-auto-flow: column;
 }
@@ -789,6 +809,14 @@ video {
 
 .grid-rows-2 {
   grid-template-rows: repeat(2, minmax(0, 1fr));
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.place-content-around {
+  place-content: space-around;
 }
 
 .content-center {
@@ -823,12 +851,20 @@ video {
   gap: 1rem;
 }
 
+.gap-12 {
+  gap: 3rem;
+}
+
 .self-center {
   align-self: center;
 }
 
 .rounded-2xl {
   border-radius: 1rem;
+}
+
+.rounded-xl {
+  border-radius: 0.75rem;
 }
 
 .bg-sky-400 {
@@ -885,6 +921,21 @@ video {
   fill: #fff;
 }
 
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
 .pt-1 {
   padding-top: 0.25rem;
 }
@@ -908,6 +959,11 @@ video {
   line-height: 1.75rem;
 }
 
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -925,6 +981,21 @@ video {
 .text-black {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.underline {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+
+.no-underline {
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
 }
 
 .opacity-50 {
@@ -945,6 +1016,16 @@ video {
   content: var(--tw-content);
   --tw-scale-x: 0;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.hover\:px-8:hover {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.hover\:py-4:hover {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 @media (min-width: 768px) {

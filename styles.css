@@ -1,14 +1,14 @@
-a {
+.underline {
     position: relative;
-    color: #000;
+    color: rgb(255, 255, 255);
     text-decoration: none;
   }
   
-  a:hover {
-    color: #000;
+  .underline:hover {
+    color: rgb(255, 255, 255);
   }
   
-  a::before {
+  .underline::before {
     content: "";
     position: absolute;
     display: block;
@@ -21,10 +21,15 @@ a {
     transition: transform 0.3s ease;
   }
   
-  a:hover::before {
+  .underline:hover::before {
     transform: scaleX(1);
   }
 
   input {
     text-indent: 10px;
+  }
+
+  .btn:hover {
+    transform: scale(1.1);
+    transition-duration: 500ms;
   }
