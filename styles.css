@@ -25,6 +25,6 @@ a {
     transform: scaleX(1);
   }
 
-  .sidebar-background {
-    background: rgba(51, 170, 51, .4)
+  input {
+    text-indent: 10px;
   }
