@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="grid grid-cols-4 grid-rows-5">
-        <div class="sidebar col-start-1 col-end-2 row-start-1 row-end-6 bg-red-900 h-screen">
+    <div class="grid grid-cols-8 grid-rows-5">
+        <div class="sidebar col-start-1 col-end-3 row-start-1 row-end-6 bg-red-900 h-screen">
             <div class="text-2xl text-black mt-3 ml-3">
                 <div class="flex gap-4">
                     <img src="./icons/dashboard.svg" alt="Dashboard" class="w-7">
@@ -59,14 +59,20 @@
                 </div>
             </div>
         </div>
-        <div class="header col-start-2 col-end-5 row-start-1 row-end-2 bg-slate-100 grid grid-cols-4 grid-rows-2 content-center">
-            <div class="top-nav col-start-1 col-end-3 grid">
+        <div class="header col-start-3 col-end-9 row-start-1 row-end-2 bg-white grid grid-cols-6 grid-rows-2">
+            <div class="top-nav col-start-1 col-end-5 grid">
                 <div class="flex gap-4 self-center ml-4">
                     <img src="./icons/search.svg" alt="Search" class="w-8">
-                    <input type="text" class="h-8 rounded-2xl bg-slate-200 w-10/12 intent-1">
+                    <input type="text" class="h-8 rounded-2xl bg-slate-100 w-11/12 intent-1">
                 </div>
             </div>
+            <div class="right-info col-start-5 col-end-7 row-start-1 row-end-2 flex justify-end items-center gap-4 mr-8">
+                <img src="./icons/notification.svg" alt="Noticications" class="w-7">
+                <img src="./icons/user-profile.png" alt="User Profile Picture" class="w-20 h-auto">
+                <p class="text-lg font-bold">Steve Jobs</p>
+            </div>
         </div>
+
     </div>
 </body>
 </html>
