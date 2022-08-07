@@ -551,6 +551,10 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.invisible {
+  visibility: hidden;
+}
+
 .col-start-1 {
   grid-column-start: 1;
 }
@@ -585,6 +589,10 @@ video {
 
 .col-end-4 {
   grid-column-end: 4;
+}
+
+.row-span-full {
+  grid-row: 1 / -1;
 }
 
 .row-start-1 {
@@ -893,4 +901,40 @@ video {
 
 .first-line\:mb-1::first-line {
   margin-bottom: 0.25rem;
+}
+
+@media (min-width: 768px) {
+  .md\:visible {
+    visibility: visible;
+  }
+
+  .md\:col-start-3 {
+    grid-column-start: 3;
+  }
+
+  .md\:col-start-4 {
+    grid-column-start: 4;
+  }
+
+  .md\:col-end-7 {
+    grid-column-end: 7;
+  }
+
+  .md\:row-start-2 {
+    grid-row-start: 2;
+  }
+
+  .md\:row-end-3 {
+    grid-row-end: 3;
+  }
+
+  .md\:h-screen {
+    height: 100vh;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:gap-12 {
+    gap: 3rem;
+  }
 }
