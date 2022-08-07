@@ -37,3 +37,12 @@
   .auto-fit {
     grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
   }
+
+  .blw {
+    border-left-width: 12px;
+  }
+
+  .card:hover {
+    transform: scale(1.05);
+    transition-duration: 500ms;
+  }
